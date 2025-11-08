@@ -17,7 +17,7 @@ extern "C" {
 
 int main()
 {
-    GameEngine game;
+    GameEngine game("Assets/assets.txt");
     game.run();
 
 
